@@ -8,11 +8,11 @@ To run this program, follow the steps given below:
 
 2. Open terminal and redirect to "QuickSort"
 
-3. run: sbt compile
+3. $ sbt compile
 #once compiled successfully
 
-4. run: sbt run
+4. $ sbt test
 
-5. Enter the numbers to be sorted by hitting enter after each number
+For checking style : sbt scalastyle
 
-#Sorted list will be the output!!
+For checking code coverage: sbt coverageReport
